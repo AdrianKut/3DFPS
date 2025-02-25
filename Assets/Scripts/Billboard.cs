@@ -5,7 +5,7 @@ public class Billboard : MonoBehaviour
     private Camera m_Camera;
     private void Start()
     {
-        m_Camera = PlayerController.Instance.GetPlayerCamera();
+        //m_Camera = PlayerController.Instance.GetPlayerCamera();
        // this.m_Camera = Camera.main;
     }
 
